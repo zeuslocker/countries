@@ -1,0 +1,16 @@
+.tabList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tab {
+  list-style-type: none;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 1px 1px 3px 1px #ccc;
+  }
+}
